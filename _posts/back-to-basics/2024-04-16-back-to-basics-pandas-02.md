@@ -7,13 +7,14 @@ tags: ['back to basics', 'pandas']
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/WNHl-WwdwCs/upload/93e66a82cce1c0382b2ca9f31a7b7fa1.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 ---
 
+## Pandas's _.Loc_ and _.Iloc_ operators
 One of the most common tasks we perform with Pandas is data indexing and selection. We do that pretty much daily.
 
-Let's delve into the world of **Pandas** and explore the differences between `loc()` and `iloc()` operators. These two methods are essential for data manipulation in Python, especially when working with **DataFrames**. Knowing how to apply those two well is the **key** to filtering a DataFrame efficiently. Did you get it? ***loc*** and ***key***? Nevermind! Let's jump in.
+Let's delve into the world of **Pandas** and explore the differences between `loc()` and `iloc()` operators. These two methods are essential for data manipulation in Python, especially when working with **DataFrames**. Knowing how to apply those two well is the **key** to filtering a DataFrame efficiently. Did you get it? ***loc*** and ***key***? Nevermind! Let's jump in.  
 
-## Selecting with `loc()` and `iloc()`
+### Selecting with `loc()` and `iloc()`
 
-### 1\. `loc()` - Label-Based Data Selection
+#### 1\. `loc()` - Label-Based Data Selection
 
 The `loc()` function is a label-based data selection method. It allows us to select rows or columns based on their **labels** (i.e., row or column names) but may also be used with a boolean array with the same length as the row axis. Some key points about `loc()`:
 
@@ -22,7 +23,7 @@ The `loc()` function is a label-based data selection method. It allows us to sel
 * It can accept **boolean data** for filtering.
 * It's useful for selecting data based on specific conditions.
 
-### 2\. `iloc()` - Integer-Based Data Selection
+#### 2\. `iloc()` - Integer-Based Data Selection
 
 The `iloc()` function, on the other hand, is an integer-based data selection method. It uses **integer positions** to access data but may also be used with a boolean array. Here are some aspects of `iloc()` to keep in mind:
 
@@ -31,7 +32,7 @@ The `iloc()` function, on the other hand, is an integer-based data selection met
 * Like `loc[]`, it also accepts **boolean data** for filtering.
 * It's ideal for accessing data by position.
 
-## Examples
+### Examples
 
 Let's demonstrate these concepts using a sample DataFrame containing information about cars:
 
@@ -75,7 +76,7 @@ Displaying the DataFrame above we get:
 | VW | 2018 | 15000 | Liverpool | 21 |
 | Ford | 2019 | 12000 | Nottingham | 24 |
 
-### Example 1: Conditional Selection Data
+#### Example 1: Conditional Selection Data
 
 Let's use `loc()` to find Ford cars with a mileage greater than 25:
 
@@ -90,7 +91,7 @@ Output:
 | Ford | 2012 | 50000 | Manchester | 28 |
 | Ford | 2012 | 10000 | Birmingham | 28 |
 
-### Example 2: Row Selection using ranges
+#### Example 2: Row Selection using ranges
 
 We'll use `iloc()` to extract rows with indices from 2 to 5 (inclusive):
 
@@ -107,5 +108,5 @@ Output:
 | Ford | 2012 | 10000 | Birmingham | 28 |
 | Hyundai | 2016 | 46000 | London | 29 |
 
-## Summary
+### Summary
 The Pandas `loc` and `iloc` are powerful tools for selecting and manipulating data within Pandas DataFrames and Series. Its utility ranges from simple row-and-column selections to more complex operations combined with other Pandas features like `groupby`. They can be adapted to work with boolean conditions, thereby offering a flexible approach to data manipulation tasks. Mastering `loc` and `iloc` will add flexibility to any Data Analyst's toolbox. 

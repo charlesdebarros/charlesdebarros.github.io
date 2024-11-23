@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Back to Basics - Python 01
+author: Charles De Barros
 date: 2024-04-09 17:44
 category: ['Back to Basics', 'Python']
 tags: ['back to basics', 'python']
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ZIPFteu-R8k/upload/4f2919851e7b480fe73f756cc9fa618b.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 ---
 
+<!-- ![]({{ page.image }})   -->
 ## Intro
 
 It's March 2024 and I have joined a Level 4 Data Analytics Bootcamp! Hurray! Technically lessons will only start at the beginning of April but I am already very excited about it and thinking of things.

@@ -1,5 +1,6 @@
 ---
 layout: base
+author: author
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -15,7 +16,13 @@ layout: base
       {%- endif -%}</p>
   </header>
 
+  {%- if page.image -%}
+    <img src="{{page.image}}" />
+  {%- endif -%}
+
+
   <div class="post-content e-content" itemprop="articleBody">
+    <br>
     {{ content }}
   </div>
 
