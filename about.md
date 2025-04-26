@@ -46,4 +46,4 @@ I have a very communicative nature. I once presented a talk at the NADDI 2019 co
 
 See my GitHub profile at [here](https://github.com/charlesdebarros).
 
-You can see my CV [here](https://drive.google.com/file/d/1g0hMFuYBLzfolAMUdHY3qsKiaSeQzFj2/view?usp=sharing){:target="_blank"}.
+You can see my CV [here](https://drive.google.com/file/d/1otUWD_vmtGGu8lM2TWwYM517eH2UFMd3/view?usp=sharing){:target="_blank"}.
