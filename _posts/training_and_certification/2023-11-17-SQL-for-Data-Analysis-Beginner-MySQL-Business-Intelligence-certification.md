@@ -1,6 +1,7 @@
 ---
 layout: page
-title: SQL-for-Data-Analysis. Beginner-MySQL-Business-Intelligence-certification
+title: MySQL-Business Intelligence 
+subheadline: Beginner Certification
 date: 2023-11-17 17:36
 header:
     background-color: "#f29221"
@@ -8,7 +9,7 @@ header:
     caption_url: https://unsplash.com/
 category: ["Training", "Certification"]
 tags: ['training', 'certification']
-image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Y9kOsyoWyaU/upload/d98030b51b57336e2c64da8e526838ad.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
+image:
 ---
 
 I’m happy to share that I’ve obtained a new certification: SQL for Data Analysis: Beginner MySQL Business Intelligence from [Udemy](https://www.udemy.com/) ([Maven Analytics](https://mavenanalytics.io/)).

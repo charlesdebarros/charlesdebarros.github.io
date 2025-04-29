@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Python 03"
-subheadline: "Back to Basics"
+title: "Back to Basics"
+subheadline: "Python #03"
 date: 2024-04-23 17:44
 category: 
     - Back to Basics

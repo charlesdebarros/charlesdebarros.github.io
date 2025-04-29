@@ -28,6 +28,9 @@ permalink: /cv/
         </div>
       </div>
       <br>
+      <div>
+        <p style="text-align: center;">Download my CV <strong><a href="https://drive.google.com/file/d/1otUWD_vmtGGu8lM2TWwYM517eH2UFMd3/view?usp=sharing)" target="_blank">here</a></strong></p>
+      </div>
       <div class="personal-statement">
         <h2>Personal statement</h2>
         <p>I am a Junior Data Analyst with a profound interest in the fields of environmental sustainability, hospitality, technology, education, and science. My intellectual curiosity drives me to explore various perspectives and develop innovative solutions to complex challenges. I possess a well-organized, analytical, and logical mindset, characterized by meticulous attention to detail and an ability to recognize patterns. As a former web developer, I have expertise in SQL/PostgreSQL databases, Ruby and Ruby on Rails, Python, and JavaScript. I take pleasure in engaging with emerging technologies and am committed to continuous learning. I am highly motivated and proactive, with a strong dedication to enhancing my skills within the Data Analytics discipline. I seek opportunities to engage in data analysis projects and am eager to connect with exceptional mentors and inspiring managers.</p>
@@ -134,4 +137,6 @@ permalink: /cv/
   </div>
 </div>
 <br>
-### You can see my CV <strong>[here](https://drive.google.com/file/d/1gDW-k1N0lXcj8qN0GAhAS3Ngdd_97Y8s/view?usp=sharing){:target="_blank"}.</strong>
+<div>
+  <p style="text-align: center;">Download my CV <strong><a href="https://drive.google.com/file/d/1otUWD_vmtGGu8lM2TWwYM517eH2UFMd3/view?usp=sharing)" target="_blank">here</a></strong></p>
+</div>
