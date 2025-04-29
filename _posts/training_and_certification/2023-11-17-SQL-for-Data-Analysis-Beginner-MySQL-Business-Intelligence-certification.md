@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MySQL-Business Intelligence 
+title: MySQL Business Intelligence 
 subheadline: Beginner Certification
 date: 2023-11-17 17:36
 header:
