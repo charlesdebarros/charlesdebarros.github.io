@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Pandas 02"
-subheadline: "Back to Basics"
+title: "Back to Basics"
+subheadline: "Pandas #02"
 date: 2024-04-16 18:15
 header: 
     background-color: "#130654"

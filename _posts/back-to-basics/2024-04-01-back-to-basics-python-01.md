@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Python 01"
-subheadline: "Back to Basics"
+title: "Back to Basics"
+subheadline: "Python #01"
 date: 2024-04-09 17:44
 header: 
     background-color: "#003f72"

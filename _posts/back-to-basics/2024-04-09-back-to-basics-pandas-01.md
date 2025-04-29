@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Pandas 01"
-subheadline: "Back to Basics"
+title: "Back to Basics"
+subheadline: "Pandas #01"
 date: 2024-04-09 18:15
 category: ['Back to Basics', 'Pandas']
 tags: ['back to basics', 'pandas']
