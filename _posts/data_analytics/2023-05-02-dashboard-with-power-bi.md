@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dashboard with Power Bi
+title: Dashboard with Power BI
 date: 2023-05-02 11:25
 categories: ["Data Analytics"]
 tags: ['data analytics', 'power bi']
