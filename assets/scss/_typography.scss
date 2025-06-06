@@ -60,3 +60,15 @@ h5, .h5{
 h6, .h6{
   font-size: 16px;
 }
+
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: $text-color-dark;
+  &:hover{
+    color: $text-color-dark;
+  }
+  span {
+    color: $dodger_blue;
+  }
+}
