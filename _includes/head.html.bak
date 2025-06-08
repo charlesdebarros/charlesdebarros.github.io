@@ -19,6 +19,7 @@
   <!-- Main Stylesheet -->
   <link href="{{ '/assets/scss/style.css' | relative_url }}" rel="stylesheet">
 
+  <!-- Fontawesome -->
   <script src="https://kit.fontawesome.com/6ef3a000f7.js" crossorigin="anonymous"></script>
   <!--Favicon-->
   <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }} " type="image/x-icon">

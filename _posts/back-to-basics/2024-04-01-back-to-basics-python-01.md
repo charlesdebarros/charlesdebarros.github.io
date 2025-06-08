@@ -1,14 +1,14 @@
 ---
-
 title: "Python 01"
 subheadline: "Back to Basics"
 date: 2024-04-09 17:44
+author: "Charles De Barros"
 header: 
     background-color: "#003f72"
     caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
 category: ['Back to Basics', 'Python']
-tags: ['back to basics', 'python']
+tags: ["back to basics", "python"]
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ZIPFteu-R8k/upload/4f2919851e7b480fe73f756cc9fa618b.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 ---
 
