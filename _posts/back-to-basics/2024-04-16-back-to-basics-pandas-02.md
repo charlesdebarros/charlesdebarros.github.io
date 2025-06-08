@@ -3,6 +3,7 @@
 title: "Pandas 02"
 subheadline: "Back to Basics"
 date: 2024-04-16 18:15
+author: "Charles De Barros"
 header: 
     background-color: "#130654"
     caption: Three padlocks. One open and two closed.

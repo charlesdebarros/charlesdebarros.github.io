@@ -3,6 +3,7 @@
 title: "Pandas 01"
 subheadline: "Back to Basics"
 date: 2024-04-09 18:15
+author: "Charles De Barros"
 category: ['Back to Basics', 'Pandas']
 tags: ['back to basics', 'pandas']
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/_9a-3NO5KJE/upload/a80714217496935f70f044601bf6186f.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp

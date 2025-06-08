@@ -3,8 +3,10 @@ menu:
   # main menu
   main:
     - { name: Home, url: "/" }
+    - { name: About, url: "about.html" }
+    - { name: Portfolio, url: "portfolio" }
+    - { name: CV, url: "cv.html" }
     - { name: Contact, url: "contact.html" }
-    - { name: Tools, url: "tools.html" }
 
   ##### Dropdown menu ######
 
@@ -20,8 +22,10 @@ menu:
   # Footer menu
   footer:
     - { name: Home, url: "/" }
-    - { name: Contact, url: "contact.html" }
+    - { name: About, url: "about" }
+    - { name: Portfolio, url: "portfolio" }
     - { name: Tools, url: "tools.html" }
+    - { name: Contact, url: "contact.html" }
 
 ######################### Default Parameters ###########################
 
@@ -48,13 +52,13 @@ search:
 
 ############################## Social Site ##########################
 social:
-  - name: "facebook"
-    icon: "ti-facebook" # themify icon pack https://themify.me/themify-icons
-    link: "#"
+  # - name: "facebook"
+  #   icon: "ti-facebook" # themify icon pack https://themify.me/themify-icons
+  #   link: "#"
 
-  - name: "twitter"
-    icon: "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-    link: "#"
+  # - name: "twitter"
+  #   icon: "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+  #   link: "#"
 
   - name: "github"
     icon: "ti-github" # themify icon pack https://themify.me/themify-icons

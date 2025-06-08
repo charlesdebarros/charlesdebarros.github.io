@@ -3,6 +3,7 @@
 title: "Python 03"
 subheadline: "Back to Basics"
 date: 2024-04-23 17:44
+author: "Charles De Barros"
 category: 
     - Back to Basics
     - Python
