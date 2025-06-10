@@ -6,7 +6,7 @@ menu:
     - { name: About, url: "about.html" }
     - { name: Portfolio, url: "portfolio" }
     - { name: CV, url: "cv.html" }
-    - { name: Contact, url: "contact.html" }
+    # - { name: Contact, url: "contact.html" }
 
   ##### Dropdown menu ######
 
@@ -24,8 +24,9 @@ menu:
     - { name: Home, url: "/" }
     - { name: About, url: "about" }
     - { name: Portfolio, url: "portfolio" }
-    - { name: Tools, url: "tools.html" }
-    - { name: Contact, url: "contact.html" }
+    - { name: CV, url: "cv.html" }
+    # - { name: Tools, url: "tools.html" }
+    # - { name: Contact, url: "contact.html" }
 
 ######################### Default Parameters ###########################
 
@@ -39,7 +40,7 @@ google_analitycs_id: "" # your id
 # contact form action
 contact_form_action: "#" # contact form works with : https://formspree.io
 # copyright
-copyright: "Copyright &copy; 2022 Designed and Developed by [Themefisher](https://themefisher.com)"
+copyright: "Copyright &copy; 2025 Designed and Developed by [Themefisher](https://themefisher.com)"
 
 # preloader
 preloader:

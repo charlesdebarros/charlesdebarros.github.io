@@ -2,6 +2,7 @@
 
 title: Markdown Cheatsheet on Github
 date: 2023-05-16 16:06
+author: "Charles De Barros"
 category: ["Resources"]
 tags: ['markdown']
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/82TpEld0_e4/upload/7dd779345ab37438bb05b014b7191134.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
