@@ -5,7 +5,11 @@
       <ul class="pagination justify-content-center align-items-center">
         <li class="page-item">
           {% if paginator.previous_page %}
-          <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: "//" "/" }}/">&laquo;</a>
+              {% if paginator.page == 2 %}
+                <a class="page-link" href="/">&laquo;</a>
+              {% else %}
+                <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: "//" "/" }}/">&laquo;</a>
+              {% endif %}
           {% endif %}
         </li>
         
@@ -15,7 +19,7 @@
           <span class="page-link">{{page}}</span>
         </li>
         {% elsif page == 1 %}
-          <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: "//" "/" }}/">{{ page }}</a></li>
+          <li class="page-item"><a class="page-link" href="/">{{ page }}</a></li>
         {% else %}
           <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', page }}/">{{ page }}</a>
           </li>
