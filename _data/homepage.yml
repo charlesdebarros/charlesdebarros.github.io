@@ -1,7 +1,7 @@
 ####################### banner #######################################
 banner:
   enable: true
-  title: "Hi, I'm Charles. <br><br>I am a Data Analyst interested in the Environment, Hospitality, Tech, Education, and Science. I Python, Ruby, and SQL. <br><br>I bake in my spare time."
+  title: "Hi, I'm Charles. <br><br>I am a Data Analyst interested in the Environment, Hospitality, Tech, Education, and Science. <br><br>I enjoying working with Python, Excel, Power BI and and SQL. <br><br>I bake in my spare time."
   image: "/assets/images/banner/illustration.svg"
   bg_image: "/assets/images/banner/banner-bg.svg"
 
@@ -15,3 +15,8 @@ call_to_action:
     enable: false
     label: "Visit Here"
     link: "https://themefisher.com/jekyll-themes/"
+
+
+######################## CV url ###############################
+# cv url
+cv_url: "https://drive.google.com/file/d/1ogv2F7yjEOVMLRHW06uwkuHcBCy54Ou4/view?usp=sharing"

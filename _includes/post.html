@@ -1,5 +1,10 @@
 <article class="mb-5">
+  {% if post.subheadline %}
+  <h2 class="h4"><a class="post-title" href="{{ post.url | relative_url }}">{{post.subhealine }} - {{ post.title }}</a></h2>
+  {% else %}
   <h2 class="h4"><a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  {% endif %}
+  <!-- <h2 class="h4"><a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2> -->
   <div class="mb-3 post-meta">
     {% if post.author %}
     <a href="{{ 'author/' | relative_url }}{{ post.author | slugify }}">{{ post.author | titleize }}</a>{%endif%},
