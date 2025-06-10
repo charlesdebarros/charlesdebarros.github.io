@@ -2,6 +2,7 @@
 
 title: It is finally here
 date: 2023-06-20 16:31
+author: "Charles De Barros"
 category: ["Training", "Certification"]
 tags: ['training', 'certification']
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/mPaKMvE3sHg/upload/1151343c5f33f09fdfb90f1f73f9fb34.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
@@ -11,7 +12,9 @@ It is finally here! My Level 3 - Data Citizen Skills Bootcamp Certificate of Com
 
 [Level 3 - Data Citizen Skills Bootcamp](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/75928026)
 
-![](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/75928026 align="center")
+<div style="text-align: center;">
+    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/75928026">
+</div>
 
 I cannot express enough how much this certificate means to me: it marks the end of an era and the beginning of a new one.
 

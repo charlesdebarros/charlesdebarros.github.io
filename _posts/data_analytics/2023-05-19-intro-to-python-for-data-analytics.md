@@ -2,6 +2,7 @@
 
 title: Intro to Python for Data Analysis
 date: 2023-05-19 16:22
+author: "Charles De Barros"
 category: ['Data Analysis', 'Python']
 tags: ['data analysis', 'python']
 image: https://cdn.hashnode.com/res/hashnode/image/upload/v1684493227426/62690c5f-6c4a-46c5-bad5-6a4cbfef5117.webp?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp

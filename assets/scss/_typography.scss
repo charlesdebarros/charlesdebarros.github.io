@@ -74,8 +74,23 @@ h6, .h6{
 }
 
 .index_title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
   color: $text-color-dark;
   line-height: 1.2;
+
+  @include mobile {
+    font-size: 1.6rem;
+  }
+}
+
+.copyright_text {
+  p {
+    font-size: 0.9rem;
+  }
+  @include mobile {
+    p{
+      font-size: 0.7rem;
+    }
+  }
 }

@@ -2,6 +2,7 @@
 
 title: SQL-for-Data-Analysis. Beginner-MySQL-Business-Intelligence-certification
 date: 2023-11-17 17:36
+author: "Charles De Barros"
 header:
     background-color: "#f29221"
     caption: MySQL Logo on a tile on a yellow background
@@ -15,7 +16,7 @@ I’m happy to share that I’ve obtained a new certification: SQL for Data Anal
 
 [See the certificate on Udemy here.](https://www.udemy.com/certificate/UC-c586f333-e79b-4562-afd2-efe907531e29/)
 
-![](https://udemy-certificate.s3.amazonaws.com/image/UC-c586f333-e79b-4562-afd2-efe907531e29.jpg?v=1700155823000 align="center")
+![](https://udemy-certificate.s3.amazonaws.com/image/UC-c586f333-e79b-4562-afd2-efe907531e29.jpg?v=1700155823000, align="center")
 
 ## **COURSE OUTLINE:**
 

@@ -23,6 +23,9 @@
     font-size: 1.1rem;
   }
 }
+.navbar {
+  padding: .5rem 0 !important;
+}
 
 .navbar-light .navbar-nav .nav-link {
   color: $text-color-dark;
@@ -38,6 +41,8 @@
 
 /* search */
 .search-btn {
+  padding-top: 6px;
+  margin: auto 0;
   border: 0;
   background: transparent;
 }

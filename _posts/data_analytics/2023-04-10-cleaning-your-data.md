@@ -2,6 +2,7 @@
 
 title:  Clearning your Data
 date: 2023-04-10 11:25
+author: "Charles De Barros"
 categories: ['Data Analytics']
 tags: ['data analytics']
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/cpIgNaazQ6w/upload/75a20a52d814e0ef67bc1011e62d79ee.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
