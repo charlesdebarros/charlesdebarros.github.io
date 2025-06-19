@@ -4,7 +4,7 @@ menu:
   main:
     - { name: Home, url: "/" }
     - { name: About, url: "about.html" }
-    - { name: Portfolio, url: "portfolio" }
+    - { name: Projects, url: "projects" }
     - { name: CV, url: "cv.html" }
     # - { name: Contact, url: "contact.html" }
 
@@ -23,7 +23,7 @@ menu:
   footer:
     - { name: Home, url: "/" }
     - { name: About, url: "about" }
-    - { name: Portfolio, url: "portfolio" }
+    - { name: Projects, url: "projects.html" }
     - { name: CV, url: "cv.html" }
     # - { name: Tools, url: "tools.html" }
     # - { name: Contact, url: "contact.html" }

@@ -60,3 +60,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name:output_ext
