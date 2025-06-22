@@ -1,7 +1,7 @@
 /* body */
-/* body {
-  background-image: url(../images/backgrounds/pattern.png);
-} */
+// body {
+//   background-image: url(../images/backgrounds/pattern.png);
+// }
 
 /* banner */
 .banner {
@@ -111,21 +111,23 @@
   }
 
   ul {
+    margin-bottom: 2rem;
     padding-left: 0;
+    font-size: 1.2rem;
 
     li {
       position: relative;
       padding-left: 20px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       list-style-type: none;
 
       &::before {
         position: absolute;
-        content: "\e71b";
+        content: "‣";
         font-family: $icon-font;
-        font-size: 14px;
+        font-size: 1.5rem;
         left: 0;
-        top: 1px;
+        top: -5px;
         color: $primary-color;
         transition: .3s ease;
       }
@@ -194,6 +196,7 @@
   }
 
   code {
+    font-size: 1rem;
     padding: 3px 5px;
     background: $light;
     border: 1px solid $border-color;
@@ -233,5 +236,25 @@
       color: $white;
       background: $primary-color;
     }
+  }
+}
+
+#cv, 
+#about{
+  ul {
+    margin-bottom: 2rem;
+    li {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+    color: $text-color-dark;
+  }
+  h3 {
+    margin-bottom: 10px;
+    color: $headline_blue;
   }
 }
