@@ -13,7 +13,7 @@ permalink: /projects
     <div class="content">
         <div class="col-lg-10 mx-auto px-0">
           <div class="bg-white shadow block">
-            {% for project in site.projects %}
+            {% for project in site.projects reversed %}
               {% include project.html %}
             {% endfor %}
             <!-- pagination -->
