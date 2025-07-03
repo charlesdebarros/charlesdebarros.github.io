@@ -12,7 +12,7 @@ It is finally here! My Level 3 - Data Citizen Skills Bootcamp Certificate of Com
 
 [Level 3 - Data Citizen Skills Bootcamp](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/75928026)
 
-<div style="text-align: center;">
+<div class='a-center'>
     <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/75928026">
 </div>
 

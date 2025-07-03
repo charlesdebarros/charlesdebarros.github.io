@@ -50,6 +50,14 @@ defaults:
       permalink: post/:title:output_ext
       layout: post
 
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      permalink: projects/:name:output_ext
+      layout: project
+
+
 # Tags
 tag_page_dir: tag
 tag_page_layout: tags
