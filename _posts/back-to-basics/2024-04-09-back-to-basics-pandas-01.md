@@ -6,12 +6,12 @@ date: 2024-04-09 18:15
 author: "Charles De Barros"
 category: ['Back to Basics', 'Pandas']
 tags: ['back to basics', 'pandas']
-image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/_9a-3NO5KJE/upload/a80714217496935f70f044601bf6186f.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
+image: #
 ---
 
 # Introduction to Pandas
 
-![Giant Panda](https://images.unsplash.com/photo-1659540181281-1d89d6112832?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![Giant Panda](https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/_9a-3NO5KJE/upload/a80714217496935f70f044601bf6186f.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
 
 [Pandas Official Documentation](https://pandas.pydata.org/docs/).
 
