@@ -11,6 +11,8 @@ image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/_9a-3NO5KJE/up
 
 # Introduction to Pandas
 
+![Giant Panda](https://images.unsplash.com/photo-1659540181281-1d89d6112832?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
 [Pandas Official Documentation](https://pandas.pydata.org/docs/).
 
 ## What is Pandas?
