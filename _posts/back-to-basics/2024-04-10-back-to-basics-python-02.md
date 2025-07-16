@@ -162,7 +162,8 @@ As in normal mathematical calculations, Python integers and floats follow a defi
 ### PEMBAS
 PEMDAS was created to help remember the mathematical order of operations.
 
-### PEMBAS Rank and Priority
+### PEMBAS Rank and Priority  
+
 | Rank/Priority | Operation |
 | --- | --- |
 | 1 | Parentheses (Brackets) |
