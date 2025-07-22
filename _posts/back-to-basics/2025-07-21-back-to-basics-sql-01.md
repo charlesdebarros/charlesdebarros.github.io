@@ -9,12 +9,10 @@ header:
     caption_url: https://unsplash.com/
 category: ['Back to Basics', 'SQL']
 tags: ["back to basics", "sql"]
-image: https://res.cloudinary.com/charlesdebarros/image/upload/v1753179253/22112368_6537887_uaprve.svg
+image: #
 ---
-
-# Mastering the Basics of SQL: A Beginner's Guide to Structured Query Language
-
 ![SQL](https://res.cloudinary.com/charlesdebarros/image/upload/v1753179253/22112368_6537887_uaprve.svg)
+# Mastering the Basics of SQL: A Beginner's Guide to Structured Query Language
 
 In today’s data-driven world, understanding how to manage and retrieve data effectively is a highly valuable skill. Whether you're a software developer, data analyst, business intelligence specialist, or just tech-curious, learning SQL can be your first step toward harnessing the power of data. This article is a comprehensive beginner’s guide to SQL (Structured Query Language), including what it is, how it works, its relationship with relational databases, how it compares to database management syst...
 
