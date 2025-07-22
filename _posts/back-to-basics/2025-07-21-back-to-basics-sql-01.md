@@ -9,7 +9,7 @@ header:
     caption_url: https://unsplash.com/
 category: ['Back to Basics', 'SQL']
 tags: ["back to basics", "sql"]
-image: https://res.cloudinary.com/charlesdebarros/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1753178901/22112368_6537887_vwkowz.svg
+image: https://res.cloudinary.com/charlesdebarros/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1753179253/22112368_6537887_uaprve.svg
 ---
 
 # Mastering the Basics of SQL: A Beginner's Guide to Structured Query Language
