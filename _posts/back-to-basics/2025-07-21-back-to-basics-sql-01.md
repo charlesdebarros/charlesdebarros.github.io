@@ -9,7 +9,7 @@ header:
     caption_url: https://unsplash.com/
 category: ['Back to Basics', 'SQL']
 tags: ["back to basics", "sql"]
-image: https://img.freepik.com/free-vector/abstract-technology-sql-illustration_23-2149238125.jpg?t=st=1753118239~exp=1753121839~hmac=ff493f9ebf96dd62edae7b78586a5f6251c8671c2959fcd8295666cf5a541c2c&w=1380
+image: https://res.cloudinary.com/charlesdebarros/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1753178901/22112368_6537887_vwkowz.svg
 ---
 
 # Mastering the Basics of SQL: A Beginner's Guide to Structured Query Language
@@ -205,7 +205,6 @@ JOIN customers ON orders.customer_id = customers.id;
 ```
 
 ## Tips for Writing Good SQL Code (for Beginners)
-<br>
 ####  1. Use Descriptive Aliases
 ```sql
 SELECT o.id AS order_id, c.name AS customer_name
