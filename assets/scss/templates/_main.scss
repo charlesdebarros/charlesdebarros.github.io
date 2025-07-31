@@ -40,6 +40,9 @@
 /* blog */
 .block {
   padding: 60px 60px 40px;
+  @include mobile {
+    padding: 40px 20px;
+  }
 }
 
 .author-thumb{

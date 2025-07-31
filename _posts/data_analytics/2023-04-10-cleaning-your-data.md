@@ -1,5 +1,4 @@
 ---
-
 title:  Clearning your Data
 date: 2023-04-10 11:25
 author: "Charles De Barros"

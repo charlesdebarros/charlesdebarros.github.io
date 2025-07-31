@@ -10,8 +10,7 @@ permalink: /projects
   <div class="container">
     <br>
     <div class="row">
-    <div class="content">
-        <div class="col-lg-10 mx-auto px-0">
+        <div class="col-lg-10 col-sm-12 mx-auto px-0">
           <div class="bg-white shadow block">
             {% for project in site.projects reversed %}
               {% include project.html %}
@@ -20,7 +19,6 @@ permalink: /projects
             {% include pagination.html %}
           </div>
         </div>
-      </div>
     </div>
   </div>
 </section>
