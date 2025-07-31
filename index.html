@@ -6,12 +6,12 @@ layout: default
 {% if site.data.homepage.banner.enable %}
 <section class="banner bg-cover"
   style="background-image: url('{{ site.data.homepage.banner.bg_image | relative_url }}');">
-  <img src="{{ site.data.homepage.banner.image | relative_url }}" class="img-fluid illustration" alt="">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 mb-5 mb-lg-0">
         <h1 class="index_title">{{ site.data.homepage.banner.title }}</h1>
       </div>
+      <img src="{{ site.data.homepage.banner.image | relative_url }}" class="img-fluid illustration" alt="Man working on a laptop">
       <div class="col-lg-6 illustration-mobile">
         <img src="{{ site.data.homepage.banner.image | relative_url }}" class="img-fluid" alt="">
       </div>

@@ -47,7 +47,7 @@ The Airbnb headquarters is in San Francisco, CA, USA.
 
 ## Airbnb Corporate Affairs
 
-| Year | Revenue (US$ bn) | Net income (US$ m) | Total assets (US$ bn)[[108](https://en.wikipedia.org/wiki/Airbnb#cite_note-108)] | Employees[[109](https://en.wikipedia.org/wiki/Airbnb#cite_note-109)] |
+| Year | Revenue  (US$ bn) | Net income  (US$ m) | Total assets (US$ bn)  [[108](https://en.wikipedia.org/wiki/Airbnb#cite_note-108)] | Employees  [[109](https://en.wikipedia.org/wiki/Airbnb#cite_note-109)] |
 |:---|:---:|:---:|:---:|:---:|
 | 2014 | 0.4 |||		
 | 2015 | 0.9 |||	

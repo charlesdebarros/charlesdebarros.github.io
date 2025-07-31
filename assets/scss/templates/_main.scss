@@ -17,7 +17,7 @@
   .illustration {
     position: absolute;
     bottom: 0;
-    right: 250px;
+    right: 200px;
     @include desktop-xl {
       max-width: 600px;
     }
@@ -165,6 +165,11 @@
 
       td {
         text-align: left !important;
+      }
+    }
+    @include mobile {
+      td, th {
+        font-size: small;
       }
     }
   }
