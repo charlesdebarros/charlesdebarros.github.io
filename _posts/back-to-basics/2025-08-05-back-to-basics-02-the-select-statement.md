@@ -40,9 +40,13 @@ Whether you want to pull entire tables or just certain columns, filter data usin
 The basic syntax of a `SELECT` statement is:
 
 ```sql
-SELECT column1, column2, ...
-FROM table_name;
+    SELECT column1, column2
+    FROM table_name;
 ```
+
+{% highlight ruby %}
+    puts "Hello, World!"
+{% endhighlight %}
 
 Let’s break this down:
 
