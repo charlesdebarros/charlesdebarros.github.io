@@ -1,5 +1,5 @@
 ---
-title: "SQL 01"
+title: "SQL 01 - SQL Intro"
 subheadline: "Back to Basics"
 date: 2025-07-21 10:00
 author: "Charles De Barros"

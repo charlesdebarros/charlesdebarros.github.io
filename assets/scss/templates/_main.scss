@@ -39,7 +39,7 @@
 
 /* blog */
 .block {
-  padding: 60px 60px 40px;
+  padding: 40px 60px 40px;
   @include mobile {
     padding: 40px 20px;
   }
@@ -120,7 +120,7 @@
   ul {
     margin-bottom: 2rem;
     padding-left: 0;
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
 
     li {
       position: relative;
@@ -257,7 +257,6 @@
     margin-bottom: 2rem;
     li {
       margin-bottom: 10px;
-      font-size: 1.2rem;
     }
   }
 
