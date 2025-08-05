@@ -1,5 +1,5 @@
 ---
-title: "A Instrução SELECT"
+title: "O Comando SELECT"
 subheadline: "Back to Basics - SQL 02"
 date: 2025-08-05 09:00
 author: "Charles De Barros"
@@ -7,25 +7,25 @@ header:
     background-color: "#003f72"
     caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
-category: ['Back to Basics', 'SQL']
-tags: ["back to basics", "sql"]
+category: ['Back to Basics', 'SQL', 'Portuguese']
+tags: ["back to basics", "sql", "portuguese"]
 image: #
 ---
 
 ![Selecting a Vinyl](https://res.cloudinary.com/charlesdebarros/image/upload/v1754387663/mitchel-lensink-KmGMMxVv0_Q-unsplash_nufyrb.jpg)
 <em>Photo by <a href="https://unsplash.com/@lensinkmitchel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mitchel Lensink</a> on <a href="https://unsplash.com/photos/person-holding-roo-panes-painting-KmGMMxVv0_Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></em>
 
-# Entendendo a Instrução `SELECT` do SQL: Um Guia Abrangente
+# Entendendo o comando `SELECT` do SQL: Um Guia Abrangente
 
-SQL (Structured Query Language) é a base para gerenciar e consultar dados em bancos de dados relacionais. Entre seus muitos comandos, a instrução `SELECT` é a mais essencial e frequentemente utilizada. Seja você um analista de dados, desenvolvedor, administrador de banco de dados ou alguém que está começando sua jornada com bancos de dados, dominar o `SELECT` é fundamental para trabalhar eficazmente com dados.
+SQL (Structured Query Language) é a base para gerenciar e consultar dados em bancos de dados relacionais. Entre seus muitos comandos, a comando `SELECT` é a mais essencial e frequentemente utilizada. Seja você um analista de dados, desenvolvedor, administrador de banco de dados ou alguém que está começando sua jornada com bancos de dados, dominar o `SELECT` é fundamental para trabalhar eficazmente com dados.
 
-Neste artigo, vamos explorar tudo o que você precisa saber sobre a instrução `SELECT` — desde sua sintaxe e usos principais até exemplos práticos que você pode aplicar em cenários do mundo real.
+Neste artigo, vamos explorar tudo o que você precisa saber sobre a comando `SELECT` — desde sua sintaxe e usos principais até exemplos práticos que você pode aplicar em cenários do mundo real.
 
-## O que é a Instrução `SELECT` no SQL?
+## O que é a comando `SELECT` no SQL?
 
-A instrução `SELECT` é usada no SQL para **recuperar dados de uma tabela do banco de dados**. Ela permite consultar uma ou mais tabelas e extrair dados específicos conforme suas necessidades.
+A comando `SELECT` é usada no SQL para **recuperar dados de uma tabela do banco de dados**. Ela permite consultar uma ou mais tabelas e extrair dados específicos conforme suas necessidades.
 
-Seja para buscar tabelas inteiras ou apenas certas colunas, filtrar dados com condições ou agrupar e ordenar resultados, a instrução `SELECT` é sua porta de entrada para trabalhar com dados armazenados em bancos de dados relacionais.
+Seja para buscar tabelas inteiras ou apenas certas colunas, filtrar dados com condições ou agrupar e ordenar resultados, a comando `SELECT` é sua porta de entrada para trabalhar com dados armazenados em bancos de dados relacionais.
 
 ### Por que o `SELECT` é importante?
 
@@ -36,7 +36,7 @@ Seja para buscar tabelas inteiras ou apenas certas colunas, filtrar dados com co
 
 ## Sintaxe Básica do `SELECT`
 
-A sintaxe básica de uma instrução `SELECT` é:
+A sintaxe básica de uma comando `SELECT` é:
 
 ```sql
 SELECT column1, column2, ...
@@ -74,7 +74,7 @@ SELECT * FROM table_name;
 SELECT * FROM customers;
 ```
 
-Esta instrução retorna **todas as colunas** de **todas as linhas** na tabela `customers`.
+Esta comando retorna **todas as colunas** de **todas as linhas** na tabela `customers`.
 
 > **Nota de Boa Prática:** Embora `SELECT *` seja conveniente para consultas rápidas ou exploração de dados, não é recomendado para consultas em produção. Selecionar todas as colunas pode causar problemas de desempenho e retornar dados desnecessários. É melhor especificar apenas as colunas necessárias.
 
@@ -257,7 +257,7 @@ FROM customers;
 
 ### Conclusão
 
-A instrução `SELECT` é o comando SQL mais vital e amplamente utilizado por um motivo — ela capacita os usuários a extrair e manipular dados de maneiras infinitas. Seja para puxar tabelas completas com `SELECT *`, isolar dados específicos ou tornar os resultados mais legíveis com aliases, entender como usar o `SELECT` de forma eficaz é o primeiro passo para se tornar proficiente em SQL.
+A comando `SELECT` é o comando SQL mais vital e amplamente utilizado por um motivo — ela capacita os usuários a extrair e manipular dados de maneiras infinitas. Seja para puxar tabelas completas com `SELECT *`, isolar dados específicos ou tornar os resultados mais legíveis com aliases, entender como usar o `SELECT` de forma eficaz é o primeiro passo para se tornar proficiente em SQL.
 
 À medida que você constrói consultas mais complexas, lembre-se de:
 
@@ -266,4 +266,4 @@ A instrução `SELECT` é o comando SQL mais vital e amplamente utilizado por um
 * Usar funções como `COUNT()` e `DISTINCT` para resumir e esclarecer
 * Testar e otimizar suas consultas para melhor desempenho
 
-Ao dominar a instrução `SELECT`, você desbloqueia a capacidade de consultar e transformar dados de qualquer banco de dados relacional — fazendo seus dados trabalharem com mais inteligência, não com mais esforço.
+Ao dominar a comando `SELECT`, você desbloqueia a capacidade de consultar e transformar dados de qualquer banco de dados relacional — fazendo seus dados trabalharem com mais inteligência, não com mais esforço.
