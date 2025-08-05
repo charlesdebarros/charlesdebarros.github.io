@@ -80,8 +80,13 @@ h6, .h6{
   color: $text-color-dark;
   line-height: 1.2;
 
-  @include mobile-xs {
+
+  @include mobile {
     font-size: 1.4rem;
+  }
+
+  @include mobile-xs {
+    font-size: 1.2rem;
   }
 }
 
