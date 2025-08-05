@@ -15,26 +15,26 @@ image: #
 ![Selecting a Vinyl](https://res.cloudinary.com/charlesdebarros/image/upload/v1754387663/mitchel-lensink-KmGMMxVv0_Q-unsplash_nufyrb.jpg)
 <em>Photo by <a href="https://unsplash.com/@lensinkmitchel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mitchel Lensink</a> on <a href="https://unsplash.com/photos/person-holding-roo-panes-painting-KmGMMxVv0_Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></em>
 
-# Entendendo o comando `SELECT` do SQL: Um Guia Abrangente
+# Entendendo o comando <span class="sql-statement-headline">SELECT</span> do SQL: Um Guia Abrangente
 
 SQL (Structured Query Language) é a base para gerenciar e consultar dados em bancos de dados relacionais. Entre seus muitos comandos, a comando `SELECT` é a mais essencial e frequentemente utilizada. Seja você um analista de dados, desenvolvedor, administrador de banco de dados ou alguém que está começando sua jornada com bancos de dados, dominar o `SELECT` é fundamental para trabalhar eficazmente com dados.
 
 Neste artigo, vamos explorar tudo o que você precisa saber sobre a comando `SELECT` — desde sua sintaxe e usos principais até exemplos práticos que você pode aplicar em cenários do mundo real.
 
-## O que é a comando `SELECT` no SQL?
+## O que é a comando <span class="sql-statement">SELECT</span> no SQL?
 
 A comando `SELECT` é usada no SQL para **recuperar dados de uma tabela do banco de dados**. Ela permite consultar uma ou mais tabelas e extrair dados específicos conforme suas necessidades.
 
 Seja para buscar tabelas inteiras ou apenas certas colunas, filtrar dados com condições ou agrupar e ordenar resultados, a comando `SELECT` é sua porta de entrada para trabalhar com dados armazenados em bancos de dados relacionais.
 
-### Por que o `SELECT` é importante?
+### Por que o <span class="sql-statement">SELECT</span> é importante?
 
 - Permite a **recuperação de dados**.
 - Permite extrair apenas as **informações relevantes**.
 - É a base para construir **consultas mais complexas**, como aquelas que usam `JOIN`, `GROUP BY` ou `WHERE`.
 - Dá suporte à **agregação de dados**, análises e relatórios.
 
-## Sintaxe Básica do `SELECT`
+## Sintaxe Básica do <span class="sql-statement">SELECT</span>
 
 A sintaxe básica de uma comando `SELECT` é:
 
@@ -58,7 +58,7 @@ FROM employees;
 
 Isso recupera as colunas `first_name` e `last_name` da tabela `employees`.
 
-## Exemplo 1: `SELECT *` – Selecionando Todas as Colunas
+## Exemplo 1: <span class="sql-statement sql-statement-border">SELECT *</span> – Selecionando Todas as Colunas
 
 O asterisco `*` é um caractere curinga no SQL. Quando usado com `SELECT`, ele recupera **todas as colunas** da tabela especificada.
 
@@ -78,7 +78,7 @@ Esta comando retorna **todas as colunas** de **todas as linhas** na tabela `cust
 
 > **Nota de Boa Prática:** Embora `SELECT *` seja conveniente para consultas rápidas ou exploração de dados, não é recomendado para consultas em produção. Selecionar todas as colunas pode causar problemas de desempenho e retornar dados desnecessários. É melhor especificar apenas as colunas necessárias.
 
-## Exemplo 2: Selecionando Colunas Específicas
+## Exemplo 2: <span class="sql-statement sql-statement-border">SELECT</span> Colunas Específicas
 
 Em vez de usar `*`, você pode (e deve) especificar as colunas exatas que deseja recuperar.
 
@@ -100,7 +100,7 @@ Isso retorna apenas as colunas `customer_id` e `customer_name` da tabela `custom
 
 > Isso melhora o desempenho e torna suas consultas mais claras e fáceis de manter.
 
-## Exemplo 3: Usando Apelidos (Aliases) para Colunas no SELECT
+## Exemplo 3: Usando Apelidos (Aliases) para Colunas no <span class="sql-statement sql-statement-border">SELECT</span>
 
 Às vezes, os nomes das colunas são longos, pouco claros ou precisam ser mais amigáveis no resultado da consulta. É aí que entram os **apelidos**. Você pode renomear uma coluna na saída usando a palavra-chave `AS`.
 
@@ -129,7 +129,7 @@ FROM employees;
 
 > Apelidos são úteis para melhorar a legibilidade, especialmente ao exibir resultados de consultas em relatórios ou visualizações.
 
-## Exemplo 4: `SELECT COUNT(*)` – Contando Linhas
+## Exemplo 4: <span class="sql-statement sql-statement-border">SELECT COUNT(*)</span> – Contando Linhas
 
 A função `COUNT(*)` é uma função agregada que retorna o **número de linhas** em uma tabela, incluindo aquelas com valores `NULL`.
 
@@ -156,7 +156,7 @@ WHERE order_status = 'Shipped';
 
 > `COUNT(*)` é amplamente usado em painéis, resumos e métricas de desempenho.
 
-## Exemplo 5: `SELECT DISTINCT` – Removendo Duplicatas
+## Exemplo 5: <span class="sql-statement sql-statement-border">SELECT DISTINCT</span> – Removendo Duplicatas
 
 No SQL, a palavra-chave `DISTINCT` garante que os resultados retornados contenham **apenas valores únicos**, removendo quaisquer duplicatas.
 
@@ -187,9 +187,9 @@ Neste caso, o SQL considera cada combinação única de `city` e `state`.
 
 > Use `DISTINCT` com cautela em conjuntos de dados grandes, pois pode impactar o desempenho.
 
-## Dicas Adicionais para Usar o `SELECT`
+## Dicas Adicionais para Usar o <span class="sql-statement">SELECT</span>
 
-### 1. **Filtrando Resultados com WHERE**
+### 1. **Filtrando Resultados com <span class="sql-statement">WHERE</span>**
 
 ```sql
 SELECT first_name, department
@@ -222,11 +222,24 @@ SELECT TOP 10 * FROM products;
 
 ## Erros Comuns a Evitar
 
-| Erro            | Por que é um problema            | Melhor abordagem              |
+| Erro            | Por que é um problema?           | Melhor abordagem              |
 | --------------- | -------------------------------- | ----------------------------- |
 | Usar `SELECT *` | Retorna dados desnecessários     | Selecione colunas específicas |
 | Sem `WHERE`     | Pode sobrecarregar os resultados | Filtre os dados relevantes    |
 | Sem aliases     | Reduz a legibilidade             | Use `AS` para nomear colunas  |
+
+
+### Tabela resumo de exemplos do SELECT
+
+| Uso                    | Exemplo em SQL                           |
+| ------------------------------ | ---------------------------------------- |
+| Selecionar todas as colunas    | `SELECT * FROM users;`                   |
+| Selecionar colunas específicas | `SELECT name, email FROM users;`         |
+| Usar aliases                   | `SELECT name AS "Full Name" FROM users;` |
+| Contar total de linhas         | `SELECT COUNT(*) FROM orders;`           |
+| Selecionar valores únicos      | `SELECT DISTINCT city FROM customers;`   |
+
+
 
 
 ### Cenário do Mundo Real
