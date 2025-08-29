@@ -13,7 +13,7 @@ image: #
 ---
 
 ![Selecting a Vinyl](https://res.cloudinary.com/charlesdebarros/image/upload/v1754387663/mitchel-lensink-KmGMMxVv0_Q-unsplash_nufyrb.jpg)
-<em>Photo by <a href="https://unsplash.com/@lensinkmitchel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mitchel Lensink</a> on <a href="https://unsplash.com/photos/person-holding-roo-panes-painting-KmGMMxVv0_Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></em>
+<em>Foto cortesia de <a href="https://unsplash.com/@lensinkmitchel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mitchel Lensink</a> on <a href="https://unsplash.com/photos/person-holding-roo-panes-painting-KmGMMxVv0_Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></em>
 
 # Entendendo o comando <span class="sql-statement-headline">SELECT</span> do SQL: Um Guia Abrangente
 
