@@ -4,7 +4,7 @@ layout: default
 
 <section class="section">
   <div class="container">
-    <div class="row">  
+    <div class="row">
       <div class="col-lg-12 mx-auto block shadow mb-5">
         {% if page.subheadline %}
         <h2>{{ page.subheadline }} - {{ page.title }}</h2>
@@ -14,26 +14,27 @@ layout: default
 
         <div class="mb-3 post-meta">
           {% if page.author %}
-            <a href="{{ 'author/' | relative_url }}{{ page.author | slugify }}">{{ page.author | titleize }}</a>
+          <a href="{{ 'author/' | relative_url }}{{ page.author | slugify }}">{{ page.author | titleize }}</a>
           {%endif%},
           {{ page.date | date: '%b %d, %Y' }},
           {% if page.tags.size >= 1 %}
           {% for tag in page.tags %}
-            <a href="{{ '/tag/' | relative_url }}{{ tag | slugify }}">{{ tag | capitalize }}</a>
+          <a href="{{ '/tag/' | relative_url }}{{ tag | slugify }}">{{ tag | capitalize }}</a>
           {% endfor %}
           {% endif %}
         </div>
         {% if page.image %}
-          <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }}">
+        <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }}">
         {% endif %}
         <div class="content mb-5">
           {{ page.content }}
         </div>
-                <!-- comments -->
+        <!-- comments -->
         {% if site.disqus_shortname %}
-          {% include disqus-comments.html %}
+        {% include disqus-comments.html %}
         {% endif %}
         <!-- /comments -->
+      </div>
     </div>
-</div>
-</div>
+  </div>
+</section>
