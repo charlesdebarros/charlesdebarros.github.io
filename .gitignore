@@ -6,3 +6,5 @@ Gemfile.lock
 .jekyll-cache
 
 2
+
+*/**/*Zone.Identifier
