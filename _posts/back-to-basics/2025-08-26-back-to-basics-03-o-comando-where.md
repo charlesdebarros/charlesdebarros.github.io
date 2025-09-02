@@ -13,7 +13,7 @@ image: #
 ---
 
 ![Selecting a Vinyl](https://res.cloudinary.com/charlesdebarros/image/upload/v1756452631/Where_bruno-wolff-l5-za_iUUdA-unsplash_jbanly.jpg)
-<em>Foto cortesia de <a href="https://unsplash.com/@mrbrunowolff?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Bruno Wolff</a> on <a href="https://unsplash.com/photos/brown-and-gray-road-street-signs-at-daytime-l5-za_iUUdA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></em>
+<em>Foto cortesia de <a href="https://unsplash.com/@mrbrunowolff?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Bruno Wolff</a> no <a href="https://unsplash.com/photos/brown-and-gray-road-street-signs-at-daytime-l5-za_iUUdA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></em>
       
 # Dominando o comando de restrição <span class="sql-statement-headline">WHERE</span>: Do Básico ao Avançado
 
