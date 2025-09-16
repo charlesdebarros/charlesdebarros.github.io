@@ -9,14 +9,9 @@ header:
     caption_url: https://unsplash.com/
 category: ['Back to Basics', 'SQL']
 tags: ["back to basics", "sql"]
-image: #
+image: https://res.cloudinary.com/charlesdebarros/image/upload/v1758016165/brett-jordan-M3cxjDNiLlQ-unsplash_misrtr.jpg
 ---
-
-
-![Ordering Chaos](https://res.cloudinary.com/charlesdebarros/image/upload/v1758016165/brett-jordan-M3cxjDNiLlQ-unsplash_misrtr.jpg)
-<em>>Foto cortesia de  <a href="https://unsplash.com/@brett_jordan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brett Jordan</a> on <a href="https://unsplash.com/photos/brown-wooden-letter-blocks-on-white-surface-M3cxjDNiLlQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></em>
       
-
 # <span class="sql-statement-headline">ORDER BY</span> vs <span class="sql-statement-headline">GROUP BY</span> no SQL: Um Guia Completo com Exemplos
 
 ## Índice
