@@ -11,6 +11,10 @@ category: ['Back to Basics', 'SQL']
 tags: ["back to basics", "sql"]
 image: https://res.cloudinary.com/charlesdebarros/image/upload/v1765302753/sql_where_and_having_difference_1024px_xfumxw.png
 ---
+
+# SQL filtering with WHERE and HAVING
+*(With diagrams, ilustrationsn and practice challenges)*
+
 # Table of Contents
 
 1. [SQL Filtering with WHERE and HAVING](#sql-filtering-with-where-and-having)  
