@@ -23,9 +23,6 @@ image: https://res.cloudinary.com/charlesdebarros/image/upload/v1765302753/sql_w
 5. [WHERE vs HAVING](#where-vs-having)
 6.  [Quando Usar Cada Uma](#quando-usar-cada-uma)
 7. [Desafios Práticos](#desafios-práticos)  
-  7.1 [Desafio 1](#desafio-1)  
-  7.2 [Desafio 2](#desafio-2)  
-  7.3 [Desafio 3](#desafio-3)  
 
 ---
 

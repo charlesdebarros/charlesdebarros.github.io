@@ -24,9 +24,6 @@ image: https://res.cloudinary.com/charlesdebarros/image/upload/v1765302753/sql_w
 5. [WHERE vs HAVING](#where-vs-having)  
 6. [When to Use Each Clause](#when-to-use-each-clause)  
 7. [Practice Challenges](#practice-challenges)  
-   7.1. [Challenge 1](#challenge-1)  
-   7.2. [Challenge 2](#challenge-2)  
-   7.3. [Challenge 3](#challenge-3)  
 
 # SQL Filtering with WHERE and HAVING  
 *(With diagrams, illustrations, and extra challenges)*
