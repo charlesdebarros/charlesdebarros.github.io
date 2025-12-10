@@ -18,7 +18,6 @@ image: https://res.cloudinary.com/charlesdebarros/image/upload/v1765302753/sql_w
 ## Índice
 1. [Visão Geral](#visão-geral)
 2. [Entendendo WHERE](#entendendo-where)  
-2.1 [O que WHERE faz](#o-que-where-faz)
 3. [O que é Agregação?](#o-que-é-agregação)
 4. [HAVING filtra grupos agregados](#having-filtra-grupos-agregados)
 5. [WHERE vs HAVING](#where-vs-having)
@@ -219,5 +218,3 @@ WHERE amount > 50
 GROUP BY store
 HAVING COUNT(*) >= 10;
 ```
-
------
