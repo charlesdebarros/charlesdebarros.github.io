@@ -18,24 +18,12 @@ image: https://res.cloudinary.com/charlesdebarros/image/upload/v1765302753/sql_w
 # Table of Contents
 
 1. [SQL Filtering with WHERE and HAVING](#sql-filtering-with-where-and-having)  
-   1.1. [Overview](#overview)
 2. [Understanding WHERE](#understanding-where)  
-   2.1. [What WHERE Does](#what-where-does)
-   2.2. [Diagram: WHERE in Query Flow](#diagram-where-in-query-flow)  
-   2.3. [Example](#example)
 3. [What Is Aggregation?](#what-is-aggregation)  
-   3.1. [Diagram: Aggregation Flow](#diagram-aggregation-flow)
 4. [HAVING Filters Aggregated Groups](#having-filters-aggregated-groups)  
-   4.1. [Diagram: HAVING in Query Flow](#diagram-having-in-query-flow)  
-   4.2. [Example](#example-1)
 5. [WHERE vs HAVING](#where-vs-having)  
-   5.1. [Illustration: What Each Clause Can Filter](#illustration-what-each-clause-can-filter)  
 6. [When to Use Each Clause](#when-to-use-each-clause)  
 7. [Practice Challenges](#practice-challenges)  
-   7.1. [Challenge 1](#challenge-1)  
-   7.2. [Challenge 2](#challenge-2)  
-   7.3. [Challenge 3](#challenge-3)  
-8. [End of Article](#end-of-article)
 
 # SQL Filtering with WHERE and HAVING  
 *(With diagrams, illustrations, and extra challenges)*
@@ -169,8 +157,7 @@ HAVING SUM(amount) > 150;
 
 ## Challenge 1  
 **Table:** `orders(customer_id, order_amount, status)`  
-**Task:**  
-Show customers who:  
+**Task:** Show customers who:  
 1. Only consider orders with status = 'Completed'  
 2. Have more than 3 completed orders  
 3. Spent more than £500 in total  
@@ -191,8 +178,7 @@ HAVING COUNT(*) > 3
 
 ## Challenge 2  
 **Table:** `products(category, price)`  
-**Task:**  
-List categories whose **average** product price is between £200 and £500.
+**Task:** List categories whose **average** product price is between £200 and £500.
 
 ### Solution
 ```sql
@@ -206,8 +192,7 @@ HAVING AVG(price) BETWEEN 200 AND 500;
 
 ## Challenge 3  
 **Table:** `sales(store, amount, date)`  
-**Task:**  
-Show stores that had at least **10 sales above £50** in the month of January.
+**Task:** Show stores that had at least **10 sales above £50** in the month of January.
 
 ### Solution
 ```sql
@@ -219,8 +204,3 @@ WHERE amount > 50
 GROUP BY store
 HAVING COUNT(*) >= 10;
 ```
-
----
-
-# 📄 End of Article
-
