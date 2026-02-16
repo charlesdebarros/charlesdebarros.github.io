@@ -4,7 +4,7 @@ title: Data Storytelling
 date: 2023-05-09 11:29
 author: "Charles De Barros"
 categories: ['Data Analytics']
-tags: ['data analytics']
+tags: ['Data Analytics']
 image: https://cdn.hashnode.com/res/hashnode/image/upload/v1683999825628/3b45dd44-5406-4551-a6ac-ce505f5bd102.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 ---
 

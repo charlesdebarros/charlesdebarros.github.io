@@ -1,6 +1,6 @@
 ---
-title: "A cláusula ordenadora ORDER BY"
-subheadline: "Back to Basics - SQL 04"
+title: "Back to Basics - SQL 04"
+subheadline: "A cláusula ordenadora ORDER BY"
 date: 2025-09-02 09:00
 author: "Charles De Barros"
 header: 
@@ -8,7 +8,7 @@ header:
     caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
 category: ['Back to Basics', 'SQL']
-tags: ["back to basics", "sql"]
+tags: ["Back to Basics", "SQL"]
 image: #
 ---
 

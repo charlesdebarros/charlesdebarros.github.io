@@ -4,7 +4,7 @@ title: Dashboard with Power Bi
 date: 2023-05-02 11:25
 author: "Charles De Barros"
 categories: ["Data Analytics"]
-tags: ['data analytics', 'power bi']
+tags: ['Data Analytics', 'Power BI']
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/JKUTrJ4vK00/upload/ac0fcce1043181b8cbe675013e9e01ec.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 ---
 

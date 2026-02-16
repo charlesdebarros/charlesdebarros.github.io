@@ -4,7 +4,7 @@ subheadline: "Back to Basics"
 date: 2024-04-09 18:15
 author: "Charles De Barros"
 category: ['Back to Basics', 'Pandas']
-tags: ['back to basics', 'pandas']
+tags: ['Back to basics', 'Pandas']
 image: #
 ---
 

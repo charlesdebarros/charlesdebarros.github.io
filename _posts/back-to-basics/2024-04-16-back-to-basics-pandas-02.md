@@ -9,7 +9,7 @@ header:
     caption: Three padlocks. One open and two closed.
     caption_url: https://unsplash.com/
 category: ['Back to Basics', 'Pandas']
-tags: ['back to basics', 'pandas']
+tags: ['Back to basics', 'Pandas']
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/WNHl-WwdwCs/upload/93e66a82cce1c0382b2ca9f31a7b7fa1.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 ---
 

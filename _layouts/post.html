@@ -7,9 +7,10 @@ layout : default
     <div class="row">
       <div class="col-lg-12 mx-auto block shadow mb-5">
         {% if page.subheadline %}
-        <h2>{{ page.subheadline }} - {{ page.title }}</h2>
+          <h2>{{ page.title }}</h2>
+          <h3>{{ page.subheadline }}</h3>
         {% else %}
-        <h2>{{ page.title }}</h2>
+          <h2>{{ page.title }}</h2>
         {% endif %}
 
         <div class="mb-3 post-meta">
@@ -18,6 +19,7 @@ layout : default
           {%endif%},
           {{ page.date | date: '%b %d, %Y' }},
           {% if page.tags.size >= 1 %}
+          <br>
           {% for tag in page.tags %}
             <a href="{{ '/tag/' | relative_url }}{{ tag | slugify }}">{{ tag | capitalize }}</a>
           {% endfor %}

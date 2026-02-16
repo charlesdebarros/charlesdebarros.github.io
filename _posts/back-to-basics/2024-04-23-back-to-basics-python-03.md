@@ -8,8 +8,8 @@ category:
     - Back to Basics
     - Python
 tags: 
-    - back to basics
-    - python
+    - Back to Basics
+    - Python
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/uugOo5Lr_iM/upload/1462a749f1087a7dc95b78ee991ed897.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 ---
 
