@@ -4,7 +4,7 @@ title: Airbnb - London
 date: 2024-06-15 16:49
 author: "Charles De Barros"
 category: ['Projects', 'Portfolio']
-tags: ['projects', 'portfolio']
+tags: ['Projects', 'Portfolio']
 image: "assets/images/post/airbnb_banner.jpg"
 ---
 

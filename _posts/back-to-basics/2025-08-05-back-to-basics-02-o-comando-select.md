@@ -1,6 +1,6 @@
 ---
-title: "O Comando SELECT"
-subheadline: "Back to Basics - SQL 02"
+title: "Back to Basics - SQL 02"
+subheadline: "O Comando SELECT"
 date: 2025-08-05 09:00
 author: "Charles De Barros"
 header: 
@@ -8,7 +8,7 @@ header:
     caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
 category: ['Back to Basics', 'SQL', 'Portuguese']
-tags: ["back to basics", "sql", "portuguese"]
+tags: ["Back to Basics", "SQL", "portuguese"]
 image: #
 ---
 

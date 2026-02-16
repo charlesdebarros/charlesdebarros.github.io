@@ -1,14 +1,15 @@
 ---
-title: "SQL 01 - SQL Intro"
-subheadline: "Back to Basics"
+title: "Back to Basics - SQL 01"
+subheadline: "SQL Intro"
 date: 2025-07-21 10:00
+published: true
 author: "Charles De Barros"
 header: 
     background-color: "#003f72"
     caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
 category: ['Back to Basics', 'SQL']
-tags: ["back to basics", "sql"]
+tags: ["Back to Basics", "SQL"]
 image: https://res.cloudinary.com/charlesdebarros/image/upload/v1753179253/22112368_6537887_uaprve.svg
 ---
 

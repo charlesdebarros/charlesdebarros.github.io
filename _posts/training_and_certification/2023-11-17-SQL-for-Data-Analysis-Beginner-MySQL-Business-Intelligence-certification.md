@@ -8,7 +8,7 @@ header:
     caption: MySQL Logo on a tile on a yellow background
     caption_url: https://unsplash.com/
 category: ["Training", "Certification"]
-tags: ['training', 'certification']
+tags: ["Training", "Certification"]
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Y9kOsyoWyaU/upload/d98030b51b57336e2c64da8e526838ad.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 ---
 

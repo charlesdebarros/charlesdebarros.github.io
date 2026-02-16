@@ -1,6 +1,6 @@
 ---
-title: "WHERE e HAVING"
-subheadline: "Back to Basics - SQL 06"
+title: "Back to Basics - SQL 06"
+subheadline: "WHERE e HAVING"
 date: 2025-12-09 09:00
 author: "Charles De Barros"
 header: 
@@ -8,7 +8,7 @@ header:
     caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
 category: ['Back to Basics', 'SQL']
-tags: ["back to basics", "sql"]
+tags: ["Back to Basics", "SQL"]
 image: https://res.cloudinary.com/charlesdebarros/image/upload/v1765302753/sql_where_and_having_difference_1024px_xfumxw.png
 ---
 

@@ -4,7 +4,7 @@ title: It is finally here
 date: 2023-06-20 16:31
 author: "Charles De Barros"
 category: ["Training", "Certification"]
-tags: ['training', 'certification']
+tags: ["Training", "Certification"]
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/mPaKMvE3sHg/upload/1151343c5f33f09fdfb90f1f73f9fb34.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 ---
 

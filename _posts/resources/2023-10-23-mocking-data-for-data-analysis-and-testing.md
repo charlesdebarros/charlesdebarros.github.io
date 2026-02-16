@@ -4,7 +4,7 @@ title: Mocking data for Data Analysis and Testing
 date: 2023-10-23 17:20
 author: "Charles De Barros"
 category: ['Resources', 'Data Analytics', 'Testing']
-tags: ['resources', 'data analytics', 'testing']
+tags: ['Resources', 'Data Analytics', 'Testing']
 image: https://cdn.hashnode.com/res/hashnode/image/upload/v1698066979654/cfa29b09-0b14-404a-bde6-109fa4afbb71.avif?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 ---
 

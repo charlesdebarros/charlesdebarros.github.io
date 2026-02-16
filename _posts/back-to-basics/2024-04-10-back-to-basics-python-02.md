@@ -4,8 +4,12 @@ title: "Python 02"
 subheadline: "Back to Basics"
 date: 2024-04-10 17:44
 author: "Charles De Barros"
-category: ['Back to Basics', 'Python']
-tags: ['back to basics', 'python']
+category: 
+    - Back to Basics
+    - Python
+tags: 
+    - Back to Basics
+    - Python
 image: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/GQ327RPuxhI/upload/5ce55fb3489bb113fdb4d0f106879c5d.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 ---
 
