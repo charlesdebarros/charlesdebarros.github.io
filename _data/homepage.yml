@@ -2,7 +2,7 @@
 banner:
   enable: true
   title: "Hi, I'm Charles. <br><br>I am a Data Analyst interested in the Environment, Hospitality, Tech, Education, and Science. <br><br>I enjoying working with Python, Excel, Power BI and and SQL. <br><br>I bake in my spare time."
-  image: "/assets/images/banner/illustration.svg"
+  image: "/assets/images/banner/me_data_desk.png"
   bg_image: "/assets/images/banner/banner-bg.svg"
 
 ######################## call to action ###############################
