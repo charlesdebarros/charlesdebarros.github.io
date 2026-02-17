@@ -85,7 +85,9 @@ FROM customers
 WHERE country = 'UK';
 ```
 
-# SQL 01: The Fundamentals
+---
+
+## SQL 01: The Fundamentals
 
 ### What this means in plain English:
 1. Look in the **customers** table
@@ -303,7 +305,7 @@ Plain English Explanation:
 
 While we write SQL in the order of SELECT -> FROM -> WHERE, the database actually executes it in a different order to be efficient:
 
-* FROM: Where is the data? (Find the table)  
-* WHERE: Which rows do I need? (Filter the data)  
-* SELECT: Which columns should I show? (Pick the fields)  
-* ORDER BY: How should I present them? (Sort the results)  
+* **FROM**: Where is the data? (Find the table)  
+* **WHERE**: Which rows do I need? (Filter the data)  
+* **SELECT**: Which columns should I show? (Pick the fields)  
+* **ORDER BY**: How should I present them? (Sort the results)  
