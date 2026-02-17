@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2e643b9c-418f-40d0-9524-0e40cf8c891a/deploy-status)](https://app.netlify.com/projects/datawithcharles/deploys)
+
 # Northendlab Jekyll
 
 ![northendlab](https://demo.themefisher.com/thumbnails/northendlab-jekyll.png)
