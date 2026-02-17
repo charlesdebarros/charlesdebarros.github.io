@@ -1,6 +1,6 @@
 ---
 title: "Back to Basics - SQL 01 – A Practical Beginner’s Guide"
-date: 2026-02-17 10:00
+date: 2026-02-17 09:00
 author: "Charles De Barros"
 header:
   background-color: "#003f72"
@@ -19,7 +19,7 @@ image: https://res.cloudinary.com/charlesdebarros/image/upload/v1753179253/22112
 description: "Learn what SQL is, how it works, and how developers and analysts use it in practice. Part 1 of a complete SQL beginner series."
 ---
 
-# SQL Introduction: What SQL Is and How It Works
+# SQL Introduction: What SQL is and how it works
 
 > SQL (Structured Query Language) is the standard language used to interact with relational databases.  
 
@@ -32,7 +32,7 @@ This article is **Part 01 of a 10-part SQL series**, designed for:
 
 ---
 
-## 📚 SQL Series Roadmap (SQL 01 → SQL 10)  
+<!-- ## 📚 SQL Series Roadmap (SQL 01 → SQL 10)  
 
 1. **SQL 01 – SQL Introduction (You are here)**
 2. SQL 02 – Tables, Rows, Columns, and Data Types  
@@ -45,7 +45,7 @@ This article is **Part 01 of a 10-part SQL series**, designed for:
 9. SQL 09 – Transactions, ACID, and Data Integrity  
 10. SQL 10 – Real-World SQL Patterns and Best Practices  
 
----
+--- -->
 
 ## Table of Contents
 
@@ -62,14 +62,14 @@ This article is **Part 01 of a 10-part SQL series**, designed for:
 
 ---
 
-## What Is SQL?
+## What is SQL?
 
 **SQL (Structured Query Language)** is a declarative programming language used to **create, read, update, and delete data** stored in relational databases.
 
 > 💡 **One-sentence definition (featured snippet friendly):**  
 > SQL is a language that allows you to query and manipulate structured data stored in relational database tables.
 
-### Mental Model: How to Visualise SQL
+### Mental Model: How to visualise SQL
 
 - A **database** → a folder  
 - A **table** → a spreadsheet  
@@ -77,7 +77,7 @@ This article is **Part 01 of a 10-part SQL series**, designed for:
 - A **column** → one attribute  
 - **SQL** → the language you use to ask questions  
 
-### Example SQL Query
+### Example SQL query
 
 ```sql
 SELECT name
@@ -94,17 +94,18 @@ WHERE country = 'UK';
 
 ---
 
-## How SQL Works: The Query Lifecycle
+## How SQL works: The Query lifecycle
 SQL follows a specific step-by-step process to get you your data:
 
-1. **You write a SQL query.**
-2. **The database parses and validates it** (checking for syntax errors).
-3. **The query planner decides how to execute it** (finding the fastest path).
-4. **Tables and indexes are scanned.**
-5. **A result set is returned.**
+1. You write a SQL query.
+2. The database parses and validates it (checking for syntax errors).
+3. The query planner decides how to execute it (finding the fastest path).
+4. Tables and indexes are scanned.
+5. A result set is returned.
+
 ---
 
-## SQL Is Declarative
+## SQL Is declarative
 SQL is a **declarative** language, meaning you describe **what** you want, not **how** to get it.
 
 `SELECT * FROM products WHERE price > 100;`
@@ -129,21 +130,22 @@ SQL is a **declarative** language, meaning you describe **what** you want, not *
 
 ## Relational (SQL) vs. Non-Relational (NoSQL)
 
-### Relational Databases (SQL)
+### Relational databases (SQL)
 * Fixed schema
 * Tables with rows and columns
 * Strong consistency (**ACID**)
 * Excellent for structured data
 * **Examples:** MySQL, PostgreSQL, Oracle, SQL Server
 
-### Non-Relational Databases (NoSQL)
+### Non-Relational databases (NoSQL)
 * Flexible schema
 * JSON, key-value, or graph data
 * Horizontally scalable
 * Designed for high-volume or unstructured data
 * **Examples:** MongoDB, Redis, Cassandra, Neo4j
 
-### Key Differences
+### Key differences
+
 | Feature | SQL (Relational) | NoSQL |
 | :--- | :--- | :--- |
 | **Schema** | Fixed | Flexible |
@@ -161,8 +163,9 @@ SQL is a **declarative** language, meaning you describe **what** you want, not *
 
 ---
 
-## Is SQL Case-Sensitive?
-| Item | Case-Sensitive |
+## Is SQL case-sensitive?
+
+| Item | Case-sensitive |
 | :--- | :--- |
 | **SQL keywords** | ❌ No (`SELECT` is the same as `select`) |
 | **Table & column names** | ⚠️ Depends on the OS/Database |
@@ -170,9 +173,9 @@ SQL is a **declarative** language, meaning you describe **what** you want, not *
 
 ---
 
-## Basic SQL Syntax Examples
+## Basic SQL syntax examples
 
-### SELECT – Query Data
+### SELECT – Query data
 ```sql
 SELECT * FROM employees;
 SELECT first_name, last_name FROM employees;
@@ -185,21 +188,21 @@ INSERT INTO employees (first_name, last_name)
 VALUES ('Jane', 'Doe');
 ```
 
-### UPDATE – Modify Data
+### UPDATE – Modify data
 ```sql
 UPDATE employees
 SET department = 'Marketing'
 WHERE id = 101;
 ```
 
-### UPDATE – Modify Data
+### UPDATE – Modify data
 ```sql
 UPDATE employees
 SET department = 'Marketing'
 WHERE id = 101;
 ```
 
-### DELETE – Remove Data
+### DELETE – Remove data
 ```sql
 DELETE FROM employees WHERE id = 101;
 ```
@@ -207,14 +210,15 @@ DELETE FROM employees WHERE id = 101;
 ---
 
 ## SQL for Developers vs. Analysts
-### SQL for Developers
+
+**SQL for Developers**
 
 * Power APIs and backend services  
 * Enforce data integrity  
 * Optimize performance & Index tuning  
 * Work with migrations and transactions  
 
-### SQL for Data Analysts
+**SQL for Data Analysts**
 
 * Explore datasets  
 * Build reports and dashboards  
@@ -225,7 +229,7 @@ DELETE FROM employees WHERE id = 101;
 
 ## Practice Exercises
 
-### Exercise 1 – Identify the Parts
+### Exercise 1 – Identify the parts
 
 Identify the table name, selected columns, and filter condition:
 
@@ -233,11 +237,11 @@ Identify the table name, selected columns, and filter condition:
 SELECT email FROM users WHERE active = true;
 ```
 
-### Exercise 2 – Write Your First Query
+### Exercise 2 – Write your first query
 
 Write a query to select all columns from a table called products where the price is greater than 50.
 
-### Exercise 3 – Think Like SQL
+### Exercise 3 – Think like SQL
 
 Explain in plain English what this query does:
 ```sql
@@ -256,7 +260,7 @@ Happy querying! 🚀
 
 ## Solutions to the exercises from the article
 
-### Exercise 1 – Identify the Parts
+**Exercise 1 – Identify the Parts**
 
 Query: 
 ```sql
@@ -269,7 +273,7 @@ SELECT email FROM users WHERE active = true;
 
 ---
 
-### Exercise 2 – Write Your First Query
+**Exercise 2 – Write Your First Query**
 
 Task: 
 ```
@@ -282,7 +286,7 @@ SELECT * FROM products
 WHERE price > 50;
 ```
 
-### Exercise 3 – Think Like SQL
+**Exercise 3 – Think Like SQL**
 
 Query: 
 ```sql
@@ -295,7 +299,7 @@ Plain English Explanation:
 
 ---
 
-### __Bonus__: How the Database "Thinks" (The Execution Order)
+### __Bonus__: How the database "thinks" (The execution order)
 
 While we write SQL in the order of SELECT -> FROM -> WHERE, the database actually executes it in a different order to be efficient:
 
