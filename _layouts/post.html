@@ -15,9 +15,9 @@ layout : default
 
         <div class="mb-3 post-meta">
           {% if page.author %}
-            <a href="{{ 'author/' | relative_url }}{{ page.author | slugify }}">{{ page.author | titleize }}</a>
+            <a href="{{ 'author/' | relative_url }}{{ page.author | slugify }}" class="text-xs">{{ page.author | titleize }}</a>
           {%endif%},
-          {{ page.date | date: '%b %d, %Y' }},
+          {{ page.date | date: '%d %b %Y' }}
           {% if page.tags.size >= 1 %}
           <br>
           {% for tag in page.tags %}
