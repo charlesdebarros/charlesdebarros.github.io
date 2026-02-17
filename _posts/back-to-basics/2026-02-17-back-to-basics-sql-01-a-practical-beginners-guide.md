@@ -309,3 +309,6 @@ While we write SQL in the order of SELECT -> FROM -> WHERE, the database actuall
 * **WHERE**: Which rows do I need? (Filter the data)  
 * **SELECT**: Which columns should I show? (Pick the fields)  
 * **ORDER BY**: How should I present them? (Sort the results)  
+
+
+Next up: **SQL 02 – Tables, Rows, Columns, and Data Types** 🚀

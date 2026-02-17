@@ -399,4 +399,4 @@ If dates are stored as 'VARCHAR', the database:
 
 ---
 
-Next up: __SQL 03 – SELECT Queries and Filtering Data__ 🚀
+Next up: **SQL 03 – SELECT Queries and Filtering Data** 🚀
