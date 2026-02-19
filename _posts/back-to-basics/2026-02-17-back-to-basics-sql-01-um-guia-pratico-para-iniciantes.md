@@ -13,7 +13,7 @@ tags:
   - relational databases
   - data analysis
   - backend development
-series: "SQL from Zero to Pro"
+series: "SQL do Zero ao Pro"
 series_part: 1
 image: https://res.cloudinary.com/charlesdebarros/image/upload/v1753179253/22112368_6537887_uaprve.svg
 description: "Aprenda o que é SQL, como funciona e como desenvolvedores e analistas o utilizam na prática. Parte 1 de uma série completa para iniciantes em SQL."
