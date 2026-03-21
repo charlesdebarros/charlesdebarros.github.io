@@ -1,6 +1,6 @@
 ---
 title: "The Pros, Cons, and Challenges of being a Junior Data Analyst in the UK in 2026"
-date: 2026-02-23 08:00
+date: 2026-03-23 08:00
 author: "Charles De Barros"
 header:
  background-color: "#003f72"
